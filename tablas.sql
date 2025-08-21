@@ -29,7 +29,8 @@ CREATE TABLE productos (
     estado SMALLINT,
     CONSTRAINT fk_categoria FOREIGN KEY (id_categoria) 
         REFERENCES categorias (id_categoria)
-);
+
+);  
 
 CREATE TABLE categorias (
     id_categoria INT PRIMARY KEY,   
